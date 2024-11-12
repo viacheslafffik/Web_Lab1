@@ -1,0 +1,142 @@
+/* Прибираю зайві межі */
+body{
+    margin: 0;
+}
+
+/* Властивості хедеру */
+header {
+    display: block;
+    text-align: center;
+}
+
+/* Елементи хедеру */
+header>h1 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 40px;
+
+}
+
+header>p {
+    margin-top: 0;
+}
+
+/* Верхня навігаційна панель */
+.nav-top{
+    display: flex;
+    justify-content: right;
+}
+
+.nav-element {
+    /* border: solid; */
+    padding: 10px;
+}
+
+#bogdanImage {
+    max-width: 100%;
+    border: solid;
+}
+
+/* Основа */
+
+.div-header-main {
+    padding-left: 100px
+}
+
+#years {
+    font-size: 24px;
+}
+
+.main-vstup {
+    display: flex;
+    flex-direction: row;
+    margin-left: 75px;
+}
+
+.vstup-text {
+    margin: auto;
+    max-width: 700px;
+    font-size: 20px;
+}
+
+.bogdanDescription {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   max-width: 449px;
+   width: 339px;
+}
+
+.bogdanDescription>p {
+    margin: 0;
+}
+
+/* Таблиця */
+caption {
+    font-size: 30px;
+}
+
+/* Параметри таблиці */
+table, th, td {
+    border: solid;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 20px;
+}
+
+th:first-child, td:first-child {
+    width: 20%; /* Зменшую розмір першого стовпця*/
+}
+
+.table-visnovok {
+    max-width: 90%;
+    margin: auto;
+}
+
+/* footer */
+
+footer {
+    background-color: lightgrey;
+}
+
+.dzerela {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+/* Робимо стрічку для краси картини */
+.div-connect-strichka {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-strichka {
+    position: relative;
+}
+
+#image-strichka {
+    height: 100%;
+    width: 450%;
+    object-fit: cover;
+}
+
+/* Фінальний крок */
+
+a:visited {
+    color: blue;
+}
+
+/* Форма */
+
+.div-form {
+    display: block;
+    margin: 0 auto;
+    width: min-content;
+    margin-bottom: 40px;
+}
+
+#div-main-and-form {
+    display: flex;
+    flex-direction: column;
+}
